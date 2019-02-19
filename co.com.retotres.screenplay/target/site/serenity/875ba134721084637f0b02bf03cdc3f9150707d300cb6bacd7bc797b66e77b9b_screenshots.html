@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0c44a5fb6defa1141b013bf95c61fd65f61501c1939dcae100e21f7e3abc05b7.html">Gestionar Cita M&eacute;dica</a></span>
+                > <span class="truncate-60"><a
+                    href="875ba134721084637f0b02bf03cdc3f9150707d300cb6bacd7bc797b66e77b9b.html">Realizar el Agendamiento de una Cita </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-02-2019 17:16</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Gestionar Cita Médica </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como paciente
+Quiero realizar la solicitud de una cita médica
+A través del sistema de Administración de Hospitales
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ddc53a7b42a09f27947c984bf373d4b9b3ad27a1b457b3c482190e9b30125fb5.html">Agendarcita
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar el Agendamiento de una Cita
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0ee65e108a41e1ef5add7a993af79583a96e580d8620671a55b073bba5361315.png" title="Dado que Carlos necesita asistir al medico" width="1366"/>
+                <img src="0ee65e108a41e1ef5add7a993af79583a96e580d8620671a55b073bba5361315.png" title="Carlos opens the Automatizacion home page" width="1366"/>
+                <img src="0da31cc4fb0e4de557161bf4d4fb5ba75acd78ca7a47f5505846f1f8a9cc7160.png" title="Cuando el realiza el agendamiento de una Cita
+| diacita | documentodelpaciente | documentodeldoctor | observaciones |
+| 05/02/2019 | 1035754852 | 1213562545 | Cita m&eacute;dica |" width="1366"/>
+                <img src="f35350b8857a95cecffccd5a2a85065a8cef17e7152c5a9290861c5eaa5680b3.png" title="Carlos clicks on El bot&oacute;n que ingresa a la p&aacute;gina de asignaci&oacute;n de citas" width="1366"/>
+                <img src="ec969406e264145fc6d7fbc8062077b01e8214e7d1e2812742ef117a9ebdcb32.png" title="Carlos enters '05/02/2019' into El campo donde se ingresa el d&iacute;a de la cita" width="1366"/>
+                <img src="69e47324be07b8b8a5f4aa9b4053f218707e15d93936e529bd227892d3bea485.png" title="Carlos clicks on campo donde se ingresa la obsewrvaciones" width="1366"/>
+                <img src="8a980da61422bbd9627bf7254e0c6b8bdcb89e139dfaee9f363f6180e3ca455c.png" title="Carlos enters '1035754852' into El campo donde se ingresa el documento del paciente" width="1366"/>
+                <img src="e83e33ca5ac8107ca734435b65792b032ffc7d52ded119776384eb4b97633338.png" title="Carlos enters '1213562545' into El campo donde se ingresa el docuemnto del doctor" width="1366"/>
+                <img src="9d6e964c27c83cc6d279355357587245b8206b150c5bc2bc68e75da0e1f2e844.png" title="Carlos enters 'Cita m&eacute;dica' into campo donde se ingresa la obsewrvaciones" width="1366"/>
+                <img src="0da31cc4fb0e4de557161bf4d4fb5ba75acd78ca7a47f5505846f1f8a9cc7160.png" title="Carlos clicks on El Bot&oacute;n agregar doctor" width="1366"/>
+                <img src="0da31cc4fb0e4de557161bf4d4fb5ba75acd78ca7a47f5505846f1f8a9cc7160.png" title="Entonces el confirma que se presente en pantalla el mensaje Datos guardados correctamente." width="1366"/>
+                <img src="0da31cc4fb0e4de557161bf4d4fb5ba75acd78ca7a47f5505846f1f8a9cc7160.png" title="Then mensaje esperado cita should be 'Datos guardados correctamente.': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

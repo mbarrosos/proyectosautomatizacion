@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="130e9eb3938c50624fd4f2d56b151d73bc52b53dbadd0f77f79fa931cd0f0eb2.html">Registro De Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="a6d1cf04f04984b69a2f4f3618a1485efbdc32191daccda638863b490565df8b.html">realizar el registro en la p&aacute;gina Automation web </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-02-2019 10:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario
+Quiero realizar el registro de un empleado en la pagina OragenHR
+A traves del deligencionamiento del formulario
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="fa6240930fdbc18bb769cd3f99f6c79a9ae540bd58975cdbf962200efa0a89e5.html">Registro
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">realizar el registro en la p&aacute;gina Automation web
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c5a548a57c0e6dfa31d1bdb9fbecb91e5ff7d6eba262090fbdf308f9228329a5.png" title="Dado que Juan necesita crear un empleado en el OrageHR" width="1366"/>
+                <img src="c2250c28ef5d58f95e6cc66d091467d64abe8889c43c0dace5b4268ef0800841.png" title="Juan opens the Orange hrm login page" width="1366"/>
+                <img src="bbf78bbb15377c323d920656fcecbbc4872957feb4acb56f52958cc17f37d8f9.png" title="Juan enters 'admin' into El campo donde se ingresa el nombre de usuario" width="1366"/>
+                <img src="4575ba487180451904eb7320e88b0d717cabe79e237288fa6601a6777e973f38.png" title="Juan enters '@NF8KRpfj4' into El campo donde se ingresa la contrase&ntilde;a" width="1366"/>
+                <img src="25f919ea798d26d29fed4e74521f1883be00734997de91fb1e3085b314acae93.png" title="Juan clicks on El bot&oacute;n que inicia sesi&oacute;n en la p&aacute;gina Orange Hrm" width="1366"/>
+                <img src="c5b4219f17689937c8a5aaad45ca820b3d6c63c93985d7869fcc0eca05570a98.png" title="Cuando el realiza el ingreso del registro en la aplicacion
+| nombre | segundonombre | apellido | localidad | region | fte | departamentotemporal | gruposanguineo | actividad |
+| Juanito | manuel | alima&ntilde;a | France Regional HQ | Region-2 | 0.75 | Sub unit-1 | AB | Movies |" width="1366"/>
+                <img src="622cf4d62972d6047cca7bd0e329b03fde9d839ed2f84a1e023793e814e96fb8.png" title="Juan clicks on El bot&oacute;n que me muestra la lista de acciones" width="1366"/>
+                <img src="62c5a38adf4bc57db83d3bf4b45fd59c1538f3a8eba792cc4ef78fb40ceff38e.png" title="Juan clicks on El boton que me activa la accion agregar empleado" width="1366"/>
+                <img src="aaedbbce3c16b1ac6e2601656cb7eedda74e7fae845636057bf4cc059b153ea9.png" title="Then Modal donde se muestro el fomrulario para agregar empleado should be an element that is visible" width="1366"/>
+                <img src="54e85b85ba156c56cd7b86b0b12a1f7ae3194a7bce630056293837002c15442b.png" title="Juan enters 'Juanito' into Campo donde va el nombre del empleado" width="1366"/>
+                <img src="3dec54b102cb7dafb267f4900bec31d6ed3703ae42c74d0a548b4dfe7061cdf9.png" title="Juan enters 'manuel' into Campo donde va el segundo nombre del empleado" width="1366"/>
+                <img src="072f589eee74e17cf880d0e335e2cfa21eeb1e24fc6dbd9b21fb6d22bf322ae6.png" title="Juan enters 'alima&ntilde;a' into Campo donde va el apellido del empleado" width="1366"/>
+                <img src="0e96c16bc1db42ce82d891f668707704861ebdfcf9debdfd0ae22cf9892e2a9b.png" title="Juan clicks on Campo donde se selecciona la localidad del empleado" width="1366"/>
+                <img src="686635212a52acd489e1e33c90edb7b9d80bdf968be19e7d6b6032244d3443a3.png" title="Juan clicks on //span[contains(text(),'France Regional HQ')]" width="1366"/>
+                <img src="a8f0ab916e7d9b86219daec1a1f353280e48062b417db6b46f27202ee047d1cd.png" title="Juan clicks on Bot&oacute;n para seguir a la pr&oacute;xima p&aacute;gina del formulario" width="1366"/>
+                <img src="caab552b4caf46d028d44e74f77706bfa9007f48ddaf017fa2c198fd142fdf43.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="c1a5ac5f9444dd44f76be55c98f9db5c73399b82d0d7176e3ec728349adcb324.png" title="Juan clicks on " width="1366"/>
+                <img src="6510089293be136ab5974abfc57eb82b96250ca57a594627a020c0dc8cc36e6b.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="631c2cb70b6cc0cab5ef059997f2531edee8e9e7c242e89af3705f5353e4d7be.png" title="Juan clicks on " width="1366"/>
+                <img src="ee30a2fe6ed501d86193b4b71a39baeb3a3b66066f1184c942120911bfaabc38.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="fd637d70e7fe0e33531e8abc91a38bdca895e217a789b492b2c56ea9feb2c52b.png" title="Juan clicks on " width="1366"/>
+                <img src="1c4d4e6589cb303a5856ce0c937dd64591c3d9db1bd02fe49c1c38446e9a4413.png" title="Juan clicks on //span[contains(text(),'Region-2')]" width="1366"/>
+                <img src="487edd894bf6c4f301668686ee9819225545b7dd760813f1c776ea99d1963bde.png" title="Juan clicks on " width="1366"/>
+                <img src="150383ff26ce47ba9ead7919c9d0aff6a2f1c994bf4adcf3c1e5b60f793742c8.png" title="Juan clicks on //span[contains(text(),'0.75')]" width="1366"/>
+                <img src="270027fbac8b0d17baa888ee12ca7ff5a863267c90c6944bdbbb860ba27eb4ee.png" title="Juan clicks on " width="1366"/>
+                <img src="267cc197ad5b42e2dc1bec34a91fe1760f88ef9a2cf29b55af619fcbc52ea337.png" title="Juan clicks on //span[contains(text(),'Sub unit-1')]" width="1366"/>
+                <img src="716284ff3e3e32235bf82d86fef3bb5b2ad4af653358f739e1f11136a2d9dd63.png" title="Juan clicks on " width="1366"/>
+                <img src="f8c770b291b03d701b7f1f68844d42815aac414d584437a70990943e8cf6d5fb.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="f8bfc4524218b5e6737560a3799fa07106ed5bef3d790071856c4a501c540614.png" title="Juan clicks on " width="1366"/>
+                <img src="d62e210e63c259680106986ebdf22121a8f3060e823f0e1cb1e28742af95fa50.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="45ebfee13649e04ef148de4d996fcff3a2d472cb8e0da92e8f83e0de9abb52f7.png" title="Juan clicks on " width="1366"/>
+                <img src="0b56405153e960a7193b0f6b24354d55dad3e82b00b8bc74af1fce30d0cdcd0b.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="889008e916cf81050b2cecea43662001ebf8c1178779c22bd23b050a2abccb70.png" title="Juan clicks on " width="1366"/>
+                <img src="7041ec88e2a887c8e7e4957d9d8c26737cc9ae6b85cd787140b5dfdf8650ead7.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="2d2c0d07f1a5fd17b09899c019033d1b04122687415a34085267908676e1d958.png" title="Juan clicks on " width="1366"/>
+                <img src="acf013990eeddc51db7339d31ca2d626ed833dceb76ea3606d3e52fc2c8b69ba.png" title="Juan clicks on //span[contains(text(),'AB')]" width="1366"/>
+                <img src="14dfdd5d0f0b1180f134de92f57264a69a1da681340eafdab943c1cd4671a6cd.png" title="Juan enters 'Movies' into " width="1366"/>
+                <img src="d4b57a6ee32d2ec01e413b629abf361067f8ae8e58f790e93cdd542eadae7636.png" title="Juan clicks on " width="1366"/>
+                <img src="686894f5a6df26676eb106a20add05a46b4ee906f25bc21af0a1054f5689d992.png" title="Then Link para listar los empleados registrados should be an element that is visible" width="1366"/>
+                <img src="83b33298f463e26f0940a40d426b29d22c6080a827ef73fa8745de78439931d7.png" title="Juan clicks on Link para listar los empleados registrados" width="1366"/>
+                <img src="db351957f0c1a4570bae162effcf5882d004b3f4bb0aa40ef08a3cd70dd8efde.png" title="Then Link para listar los empleados registrados should be an element that is visible" width="1366"/>
+                <img src="62f734118444c50216ed32fae73a65cbd019345ce1b78f14b5d1e438ea8d654c.png" title="Juan enters 'Juanito manuel alima&ntilde;a' into Link para listar los empleados registrados" width="1366"/>
+                <img src="d39288119759ddad94b13f35fa8dd21b854a064300f1f3c0c2ca93b76f9156ae.png" title="Juan clicks on Link para listar los empleados registrados" width="1366"/>
+                <img src="9ef6878a43006fc59558e2c0d586539ec938991a6c8579ed4eeff328a865ab88.png" title="Then Link para listar los empleados registrados should be an element that is visible" width="1366"/>
+                <img src="fb242ad5784006936b649d527edb65ab9ee7fb56b1c1780512f55eab5d5b6904.png" title="Juan clicks on Link para listar los empleados registrados" width="1366"/>
+                <img src="13ae79f43913617f423763c6b106025571830fe6d68e237ca26391ec219f4464.png" title="Entonces el visualiza el nuevo empleado en el aplicativo" width="1366"/>
+                <img src="80e7a97756e3936186f414a3821f360c2d6df86bb67912b9beaaf141211af40d.png" title="Then empleado esperado should be 'Juanito manuel alima&amp;ntilde;a': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b1d19fcef75ef217ea75e4a98374ab24522ea1cbd3e861b924a244e06e0da486.html">Comprar Tiquetes</a></span>
+                > <span class="truncate-60"><a
+                    href="1361400346d438e7196f818c16ac7ce38856077da0d645dc86f42ca44ae21cc1.html">Realizar compra de tiquetes </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-02-2019 08:11</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Comprar Tiquetes </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como persona
+Quiero comprar tiquetes para ir de vacaciones
+A través de la página web de Vivaair.com/co
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="3d20b6cc945e996944b2f3f72b01a666060c38051aec55b57dfe5cf92e86cd95.html">Retotecnico
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Realizar compra de tiquetes
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que un usuario quiere realizar una compra de tiquetes<br>Cuando él ingresa la información en la reserva<br>Y ingresa los datos de las personas que viajan con él<br>Entonces él verifica que no se generen Servicios adicionales USD 0.00</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d2cdf135474d8d9cb0a331a318156fd7c76fa0c4332220b7372bfbbc4d592fef.png" title="Realizar compra de tiquetes #1: {origen=Medell&iacute;n, Jos&eacute; Mar&iacute;a C&oacute;rdova (MDE), destino=Pereira (PEI), fecha_ida=20/03/2019, fecha_regreso=15/05/2019, adultos=1, ninos=2, infantes=1, moneda=USD, nombres_adulto=Susana, apellidos_adulto=Torres, genero_adulto=Femenino, documento_adulto=1088000000, correo=susana@hotmail.com, celular=3112000000, nombres_nino1=Juan, apellidos_nino1=Rojas, genero_nino1=Masculino, documento_nino1=900009999, fecha_nacimiento_nino1=12/10/2010, nombres_nino2=Sarita, apellidos_nino2=Lopez, genero_nino2=Femenino, documento_nino2=50000222, fecha_nacimiento_nino2=12/10/2010, nombres_infante=Felipe, apellidos_infante=Lopez, fecha_nacimiento_infante=18/12/2018, viaja_con=Adulto 1, servicios_adicionales=No gracias.}" width="1366"/>
+                <img src="713e274bf975d27752f74329266a383d0b8e2f508a8503a611ee0924b3acbb1f.png" title="Dado que un usuario quiere realizar una compra de tiquetes" width="1366"/>
+                <img src="713e274bf975d27752f74329266a383d0b8e2f508a8503a611ee0924b3acbb1f.png" title="usuario opens the Viva air pagina principal" width="1366"/>
+                <img src="d650e66b989894618b297ce7f1700170b1318471f43b51bc4417d6a12c692b96.png" title="Cuando &eacute;l ingresa la informaci&oacute;n en la reserva
+| origen | destino | fecha_ida | fecha_regreso | adultos | ninos | infantes | moneda |
+| Medell&iacute;n, Jos&eacute; Mar&iacute;a C&oacute;rdova (MDE) | Pereira (PEI) | 20/03/2019 | 15/05/2019 | 1 | 2 | 1 | USD |" width="1366"/>
+                <img src="2ccffffe377c3dd29e3f36ca22b172e8c417300a2041021420578427b48ff1c3.png" title="usuario clicks on Lista desplegable de ciudades de origen del vuelo" width="1366"/>
+                <img src="ba07e1a3864aa912bc35a5be16130ab8a23eaa91c5c1a25e79a8f50673ef6b0a.png" title="usuario enters '20/03/2019' into Seleccionar fecha de salida" width="1366"/>
+                <img src="3d7dfd8dfee68b3f614139c73e864010382574bf753500cab8ded7112363fd62.png" title="usuario clicks on Lista desplegable de ciudades de destino del vuelo" width="1366"/>
+                <img src="e4ce427d34fc408559793dff27dc8b826287716d34eaafabbd95dc2d107ce9e8.png" title="usuario enters '15/05/2019' into Seleccionar fecha de regreso" width="1366"/>
+                <img src="e8c6f5e370cfa32e498e881dec937df8304deb3071f9e388fa8b8737eaee6dfa.png" title="usuario clicks on Seleccionar la lista de adultos" width="1366"/>
+                <img src="5257ffc3f7e26601b8905207a440bf4cfd2641125d1c43265048fb997a39d64a.png" title="usuario clicks on Seleccionar la lista de ni&ntilde;os" width="1366"/>
+                <img src="091aab3ad13c09eb7313c867653ff276f75fa10f31b17c77bfa9333dde2fe905.png" title="usuario clicks on Seleccionar la lista de infantes" width="1366"/>
+                <img src="6c9d6a4d70a32b5d8e5685c36d0f366bf19d9e36733aaf0fa55d3a790f03bc00.png" title="usuario clicks on Opci&oacute;n precios del mes" width="1366"/>
+                <img src="0cc1c47006eddc049dcdf55564bbbbf8eb12c1e7dfd2a6c97a029e42ab4cc313.png" title="usuario clicks on Lista desplegable tipo de moneda" width="1366"/>
+                <img src="0a4b68c10a5c9c9514d8b5154a7b3185de9090ae2c47ff05334a2e622f3e35da.png" title="usuario clicks on El bot&oacute;n para reservar el vuelo" width="1366"/>
+                <img src="d0f2934bf6b59e3820c04d7e88eef9ba5434383b01626fae35f2c47951471ed2.png" title="usuario clicks on Bot&oacute;n continuar" width="1366"/>
+                <img src="539b0d42bf903edd045c7753b5d95ef731d9b682768082784f159e0366a2da10.png" title="usuario clicks on Seleccionar tarifa basica" width="1366"/>
+                <img src="a29811d14d02e018aa0339aa6bcda0998a25908765dffe62e0b55f218fa1309f.png" title="usuario clicks on Bot&oacute;n tarifa basica" width="1366"/>
+                <img src="a94d1b723ecd6e63923e433ed7405e8d1967de98972a20602878bd32bdd1c513.png" title="usuario clicks on Bot&oacute;n para aceptar la info importante" width="1366"/>
+                <img src="44566c72815e5933325bce91cf238326494438f808ec8645f574d3452458ff94.png" title="Y ingresa los datos de las personas que viajan con &eacute;l
+| nombres_adulto | apellidos_adulto | genero_adulto | documento_adulto | correo | celular | nombres_nino1 | apellidos_nino1 | genero_nino1 | documento_nino1 | fecha_nacimiento_nino1 | nombres_nino2 | apellidos_nino2 | genero_nino2 | documento_nino2 | fecha_nacimiento_nino2 | nombres_infante | apellidos_infante | fecha_nacimiento_infante | viaja_con | servicios_adicionales |
+| Susana | Torres | Femenino | 1088000000 | susana@hotmail.com | 3112000000 | Juan | Rojas | Masculino | 900009999 | 12/10/2010 | Sarita | Lopez | Femenino | 50000222 | 12/10/2010 | Felipe | Lopez | 18/12/2018 | Adulto 1 | No gracias. |" width="1366"/>
+                <img src="6978a61e56ac054d492e718942aefaff98987692ebcb7dbad3b8922467f585c7.png" title="usuario enters 'Susana' into Campo para ingresar nombres del adulto" width="1366"/>
+                <img src="299fe6da183478b7c87173ddd417796e3e12689416804f322fe80f5a50126463.png" title="usuario enters 'Torres' into Campo para ingresar apellidos del adulto" width="1366"/>
+                <img src="846c1c68ef1243729cb2dfcc5e6ba929bc71db7ecb2ff2ef24237be66637c060.png" title="usuario clicks on Lista para seleccionar el genero del adulto" width="1366"/>
+                <img src="2e70a4e9a5033381fdd7cfba4ef7f276413cb6167df500b36ed2c6ea81f71f2f.png" title="usuario enters '1088000000' into ingresar documento del adulto" width="1366"/>
+                <img src="5f73a789da07e508f7f9d73145c18d6422287058592bdaa373593ca8ac1cc0d6.png" title="usuario enters 'susana@hotmail.com' into ingresar correo del adulto" width="1366"/>
+                <img src="d9b80d970a1c5192d32d18d6125b21e1508157eee083f60dfc1322b07429ad7e.png" title="usuario enters 'susana@hotmail.com' into confirmar correo del adulto" width="1366"/>
+                <img src="d1ce066a91e56104ad1f77257b68cb531e197410171b9a080c4598e73e7a3951.png" title="usuario enters '3112000000' into ingresar celular del adulto" width="1366"/>
+                <img src="52d7ca1ceca9b3e3a8e5a4079e6e5c86974433721db006b6ef94eed3a3337a05.png" title="usuario enters 'Juan' into Campo para ingresar nombres del ni&ntilde;o 1" width="1366"/>
+                <img src="d6518968fb043a1ff3fe0042b8b0bcecbddbf4ed61afe289bbf6f531b1a4dd53.png" title="usuario enters 'Rojas' into Campo para ingresar apellidos del ni&ntilde;o 1" width="1366"/>
+                <img src="0ccbcc4622cec575c472bd0e240306104e967a706fa48cb869010c6152d4ce07.png" title="usuario enters '12/10/2010' into Campo para ingresar fecha de nacimiento ni&ntilde;o 1" width="1366"/>
+                <img src="ac22d67795716bee47e091b3f44a8cabb5f78d07df3839984567ae078053a34d.png" title="usuario clicks on Lista para seleccionar el genero del ni&ntilde;o 1" width="1366"/>
+                <img src="0df3cd355b8dd76039da354899c657d61b839795a89bd039000a500c9f352d8f.png" title="usuario enters '900009999' into ingresar documento del ni&ntilde;o 1" width="1366"/>
+                <img src="231340a626932754064bb8cb955f80d5fdfcb91858234cb64201fa1ae1fefef4.png" title="usuario enters 'Sarita' into campo para ingresar nombre del ni&ntilde;o 2" width="1366"/>
+                <img src="9e910b33f26dc8667f91fcda3245c03dfb0b133cd689177aabd2ba7ba24fd3cc.png" title="usuario enters 'Lopez' into Campo para ingresar apellidos del ni&ntilde;o 2" width="1366"/>
+                <img src="9fd936036db2809c630fc8511b19e31199b7eb113c80962c5b4c18a66d4ba28b.png" title="usuario enters '12/10/2010' into Campo para ingresar fecha de nacimiento ni&ntilde;o 2" width="1366"/>
+                <img src="c46f1e9e8f205effc11c0f601263a860363b7a8a96bc2c208201d8c8428b9f89.png" title="usuario clicks on Lista para seleccionar el genero del ni&ntilde;o 2" width="1366"/>
+                <img src="147e4fec8697c76edf425b3b7d874eae0be7bcae6db3be6a5f2eb534299dcbd0.png" title="usuario enters '50000222' into ingresar documento del ni&ntilde;o 2" width="1366"/>
+                <img src="cfae970d325b4c33c3586468bcdec58d4bb4ff6667fbcb740b021e31e8b3a227.png" title="usuario enters 'Felipe' into campo para ingresar nombre del infante" width="1366"/>
+                <img src="47111f96977be419f39a9842501beffe394e2e359c8144e5ed7a9ca5a2bc0394.png" title="usuario enters 'Lopez' into Campo para ingresar apellidos del infante" width="1366"/>
+                <img src="3f3acf1f36e81567525aa845f5759fbbf43c40109982a67e91902c8cf291d5d7.png" title="usuario enters '18/12/2018' into Campo para ingresar fecha de nacimiento infante" width="1366"/>
+                <img src="0dd5b361ca51556a4949d9ed8b828f58f942232d38f27e7265036a96a6cd0c01.png" title="usuario clicks on Desplegable de viaja con" width="1366"/>
+                <img src="0cf7b7ce4e8ac1b988afc2d7596e3e1f1c204ae50417292e4496e3f65d010658.png" title="usuario clicks on Bot&oacute;n continuar con la reserva" width="1366"/>
+                <img src="4a635a1913404d48f0746464d41309c1cca63b1c20399adaa7903a213f7865e2.png" title="usuario clicks on Lista desplegable de equipaje en cabina 1" width="1366"/>
+                <img src="44566c72815e5933325bce91cf238326494438f808ec8645f574d3452458ff94.png" title="Entonces &eacute;l verifica que no se generen Servicios adicionales USD 0.00: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
